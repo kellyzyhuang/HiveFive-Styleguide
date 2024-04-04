@@ -1,6 +1,7 @@
 .Header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     font-family: var(--font-family);
     background-color: #FFC93D;
     margin: -0.5rem;
@@ -8,16 +9,33 @@
 
 .menuList{
     display: flex;
+    justify-content: flex-end;
     align-items: center;
+    margin-right: 2rem;
 }
 
 .list{
     list-style-type: none;
-    justify-content: space-around;
-    margin: 1rem;
+    justify-content: space-between;
+    margin-left: 1rem;
 }
 
 .list a{
     text-decoration: none;
     color: black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logoPhoto{
+    margin-left: 2rem;
+}
+
+.logoName{
+    font-weight: 600;
+    margin-left: 0.7rem;
+    font-size: 2rem;
 }

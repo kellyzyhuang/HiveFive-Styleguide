@@ -5,7 +5,10 @@ import Image from "next/image";
 export default function Header(){
     return(
         <div className={styles.Header}>
-            <Image className={styles.logo}/>
+            <div className={styles.logo}>
+                <Image className={styles.logoPhoto} src={"hivefive_logo.svg"} width={60} height={60}/>
+                <p className={styles.logoName}>HiveFive</p>
+            </div>
             <div className={styles.menuListContainer}>
                 <ul className={styles.menuList}>
                     <li className={styles.list}><Link href="/">Logo</Link></li>
