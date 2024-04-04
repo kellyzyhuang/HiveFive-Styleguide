@@ -2,11 +2,13 @@
     display: flex;
     align-items: center;
     font-family: var(--font-family);
+    background-color: #FFC93D;
+    margin: -0.5rem;
 }
 
 .menuList{
     display: flex;
-    align-items: center
+    align-items: center;
 }
 
 .list{
