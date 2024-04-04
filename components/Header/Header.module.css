@@ -14,3 +14,8 @@
     justify-content: space-around;
     margin: 1rem;
 }
+
+.list a{
+    text-decoration: none;
+    color: black;
+}
