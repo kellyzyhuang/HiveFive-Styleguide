@@ -13,17 +13,39 @@ export default function Colors() {
       </Head>
       <Header/>
       <main className={`${styles.main}`}>
-        <section>
+        <section className={styles.colors}>
+          <h2 className={styles.heading}>About</h2>
+          <p>HiveFive's colours represents the bees.</p>
           <div className={styles.colorPalette}>
-            <h2>Colour Palette</h2>
-            <div className={styles.white}></div>
-            <p>#FFFFFF</p>
-            <div className={styles.secondary}></div>
-            <p>#FEECAC</p>
-            <div className={styles.accent}></div>
-            <p>#FFC93D</p>
-            <div className={styles.black}></div>
-            <p>#000000</p>
+            <h2 className={styles.heading}>Palette</h2>
+            <div className={styles.palette}>
+              <div className={styles.whiteContainer}>
+                <div className={styles.white}></div>
+                <h3>#FFFFFF</h3>
+                <p>White</p>
+              </div>
+              <div className={styles.secondaryContainer}>
+                <div className={styles.secondary}></div>
+                <h3>#FEECAC</h3>
+                <p>Vanilla</p>     
+              </div>
+              <div className={styles.accentContainer}>            
+                <div className={styles.accent}></div>
+                <h3>#FFC93D</h3>
+                <p>Sunglow</p>
+              </div>
+              <div className={styles.blackContainer}>
+                <div className={styles.black}></div>
+                <h3>#000000</h3>
+                <p>Black</p>
+              </div>              
+            </div>
+          </div>
+          <div className={styles.accessibilityContainer}>
+            <h2 className={styles.heading}>Colour Accessibility</h2>
+          </div>
+          <div className={styles.examplesContainer}>
+            <h2 className={styles.heading}>Examples</h2>
           </div>
         </section>
       </main>
