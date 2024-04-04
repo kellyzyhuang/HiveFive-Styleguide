@@ -5,10 +5,11 @@
 
 .menuList{
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .list{
     list-style-type: none;
     justify-content: space-around;
+    margin: 1rem;
 }
