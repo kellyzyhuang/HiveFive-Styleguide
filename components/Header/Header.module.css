@@ -1,0 +1,14 @@
+.Header{
+    display: flex;
+    align-items: center;
+}
+
+.menuList{
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    list-style-type: none;
+    justify-content: space-around;
+}
