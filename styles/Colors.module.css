@@ -1,0 +1,28 @@
+.colorPalette{
+    font-family: var(--font-family);
+}
+
+.white{
+    background-color: var(--white);
+}
+
+.secondary{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    background-color: var(--secondary);
+}
+
+.accent{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    background-color: var(--accent);
+}
+
+.black{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    background-color: var(--black);
+}
