@@ -19,35 +19,37 @@ export default function Typography() {
       <main className={`${styles.main}`}>
         <section className={styles.Typography}>
             <div className={styles.intro}>
-                <h2>Our Font</h2>
-                <p>We are using the font Lexend for this app.</p>
+                <h2>Our Fonts</h2>
+                <p>We are using the fonts Lexend for the body copy, and Dela Gothic One for headings in the app.</p>
             </div>
             <div className={styles.fontFamily}>
                 <div className={styles.fontStyles}>
                     <h2>Lexend</h2>
                     <p>Styles</p>
-                    <ul>
-                        <li>italic</li>
-                        <li>Light</li>
-                        <li>Regular</li>
-                        <li>Medium</li>
-                        <li>Bold</li>
+                    <ul className={styles.styleList}>
+                        <li className={styles.italic}>italic</li>
+                        <li className={styles.light}>Light</li>
+                        <li className={styles.reg}>Regular</li>
+                        <li className={styles.med}>Medium</li>
+                        <li className={styles.bold}>Bold</li>
                     </ul>
                     <h2>Dela Gothic One</h2>
                     <p>Styles</p>
-                    <ul>
-                        <li>Regular</li>
+                    <ul className={styles.styleList}>
+                        <li className={styles.reg}>Regular</li>
                     </ul>
                 </div>
-                <div className={styles.fontOne}>
-                    <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-                    <p>abcdefghijklmnopqrstuvwxyz</p>
-                    <p>1234567890</p>
-                </div>
-                <div className={styles.fontTwo}>
-                    <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-                    <p>abcdefghijklmnopqrstuvwxyz</p>
-                    <p>1234567890</p>                    
+                <div className={styles.exampleFonts}>
+                    <div className={styles.fontOne}>
+                        <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+                        <p>abcdefghijklmnopqrstuvwxyz</p>
+                        <p>1234567890</p>
+                    </div>
+                    <div className={styles.fontTwo}>
+                        <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+                        <p>abcdefghijklmnopqrstuvwxyz</p>
+                        <p>1234567890</p>                    
+                    </div>
                 </div>
             </div>
             <div>
