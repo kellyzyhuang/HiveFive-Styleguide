@@ -6,7 +6,6 @@ export default function Header(){
     return(
         <div className={styles.Header}>
             <div className={styles.logo}>
-                <Image className={styles.logoPhoto} src={"hivefive_logo.svg"} width={60} height={60}/>
                 <p className={styles.logoName}>HiveFive</p>
             </div>
             <div className={styles.menuListContainer}>
