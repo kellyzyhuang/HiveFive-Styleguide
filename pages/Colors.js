@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Colors.module.css"
 import Header from "@/components/Header";
+import Image from "next/image";
 
 export default function Colors() {
   return(
@@ -43,6 +44,13 @@ export default function Colors() {
           </div>
           <div className={styles.accessibilityContainer}>
             <h2 className={styles.heading}>Colour Accessibility</h2>
+            <p>Our colour contrast is tested by both a figma plugin, and from the website Coolors.</p>
+            <div className={styles.contrastResults}>
+              <Image src={"/images/17.81rate.png"} width={475} height={175} alt="screenshot of color contrast result 17.81"/>
+              <Image src={"/images/13.67rate.png"} width={475} height={175} alt="screenshot of color contrast result 13.67"/>
+              <Image src={"/images/10rate.png"} width={475} height={175} alt="screenshot of color contrast result 10"/>
+              <Image src={"/images/6.07rate.png"} width={475} height={175} alt="screenshot of color contrast result 6.07"/>
+            </div>
           </div>
           <div className={styles.examplesContainer}>
             <h2 className={styles.heading}>Examples</h2>
