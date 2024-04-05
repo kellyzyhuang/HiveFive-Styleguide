@@ -10,7 +10,6 @@
 
 .heading{
     font-size: 2rem;
-    margin-left: 10rem;
 }
 
 .whiteContainer, .secondaryContainer, .accentContainer, .blackContainer{
@@ -69,4 +68,9 @@
     justify-content: center;
     margin-top: -1rem;
     line-height: 0.3rem;
+}
+
+.contrastResults{
+    align-items: center;
+    justify-content: center;
 }
