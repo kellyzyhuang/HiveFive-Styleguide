@@ -1,15 +1,29 @@
 .colors{
+    display: flex;
+    flex-direction: column;
     font-family: var(--font-family);
-    margin: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
 }
 
 .palette{
     display: flex;
     justify-content: center;
+    margin: 3rem;
+    padding: 0.813rem;
 }
 
 .heading{
-    font-size: 2rem;
+    font-size: 2.375rem;
+    margin-top: 7rem;
+}
+
+.bodyCopy{
+    font-size: 1.25rem;
+    line-height: 2rem;
+    width: 70%;
+    margin-bottom: 6rem;
 }
 
 .whiteContainer, .secondaryContainer, .accentContainer, .blackContainer{
@@ -17,60 +31,36 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    line-height: 0.3rem;
+    line-height: 0.1rem;
     padding: -0.1rem;
-    margin: 0;
+    margin-bottom: 2rem;
 }
 
 .white{
-    height: 7rem;
-    width: 7rem;
-    border-radius: 100%;
-    margin: 2rem;
-    box-shadow: 0.3rem 0.3rem var(--light-grey);
-    border: 1px solid var(--light-grey);
+    height: 20rem;
+    width: 18rem;
     background-color: var(--white);
 }
 
 .secondary{
-    height: 7rem;
-    width: 7rem;
-    border-radius: 100%;
-    margin: 2rem;
-    box-shadow: 0.3rem 0.3rem var(--light-grey);
+    height: 20rem;
+    width: 18rem;
     background-color: var(--secondary);
 }
 
 .accent{
-    height: 7rem;
-    width: 7rem;
-    border-radius: 100%;
-    margin: 2rem;
-    box-shadow: 0.3rem 0.3rem var(--light-grey);
+    height: 20rem;
+    width: 18rem;
     background-color: var(--accent);
 }
 
 .black{
-    height: 7rem;
-    width: 7rem;
-    border-radius: 100%;
-    margin: 2rem;
-    box-shadow: 0.3rem 0.3rem var(--light-grey);
+    height: 20rem;
+    width: 18rem;
     background-color: var(--black);
 }
 
-.white:hover, .secondary:hover, .accent:hover, .black:hover{
-    box-shadow: 0.3rem 0.3rem var(--grey);
-}
-
-.colorHex, .colorName{
-    display: flex;
-    justify-content: center;
-    margin-top: -1rem;
-    line-height: 0.3rem;
-}
-
 .contrastResults{
-    align-items: center;
-    justify-content: center;
+    margin-left: 14rem;
+    padding: 1rem;
 }
