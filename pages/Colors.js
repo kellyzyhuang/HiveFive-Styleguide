@@ -47,7 +47,7 @@ export default function Colors() {
               <Image src={"/images/17.81rate.png"} width={475} height={175} alt="screenshot of color contrast result 17.81"/>
               <Image src={"/images/13.67rate.png"} width={475} height={175} alt="screenshot of color contrast result 13.67"/>
               <Image src={"/images/10rate.png"} width={475} height={175} alt="screenshot of color contrast result 10"/>
-              <Image src={"/images/6.07rate.png"} width={475} height={175} alt="screenshot of color contrast result 6.07"/>
+              <Image src={"/images/11.94rate.png"} width={475} height={175} alt="screenshot of color contrast result 11.94"/>
             </div>
           </div>
           <h2 className={styles.heading}>003 Examples</h2>
