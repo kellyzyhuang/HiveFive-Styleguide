@@ -44,7 +44,8 @@ export default function Colors() {
           </div>
           <div className={styles.accessibilityContainer}>
             <h2 className={styles.heading}>Colour Accessibility</h2>
-            <div className={styles.contrastResult}>
+            <p>Our colour contrast is tested by both a figma plugin, and from the website Coolors.</p>
+            <div className={styles.contrastResults}>
               <Image src={"/images/17.81rate.png"} width={475} height={175} alt="screenshot of color contrast result 17.81"/>
               <Image src={"/images/13.67rate.png"} width={475} height={175} alt="screenshot of color contrast result 13.67"/>
               <Image src={"/images/10rate.png"} width={475} height={175} alt="screenshot of color contrast result 10"/>
