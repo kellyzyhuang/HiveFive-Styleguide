@@ -16,7 +16,7 @@ export default function Colors() {
       <main className={`${styles.main}`}>
         <section className={styles.colors}>
           <h2 className={styles.heading}>About</h2>
-          <p>HiveFive's colours represents the bees.</p>
+          <p className={styles.bodyCopy}>HiveFive's colours represents the bees. Our team want the palette to be connected with the bees, as that is our theme for this app. Yellow represents joy, which is what our team wants the users to feel whenever they use our app. Alongside joy, yellow also represents optimism and hope. As the purpose of this app is to give notice and attention to the current situation of the bees in today's society, our team hopes that the users can feel optimistic that our bees will thrive in our planet once again.</p>
           <div className={styles.colorPalette}>
             <h2 className={styles.heading}>Palette</h2>
             <div className={styles.palette}>
