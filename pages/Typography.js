@@ -18,12 +18,12 @@ export default function Typography() {
       <Header/>
       <main className={`${styles.main}`}>
         <section className={styles.Typography}>
-            <div>
+            <div className={styles.intro}>
                 <h2>Our Font</h2>
                 <p>We are using the font Lexend for this app.</p>
             </div>
-            <div>
-                <div>
+            <div className={styles.fontFamily}>
+                <div className={styles.fontStyles}>
                     <h2>Lexend</h2>
                     <p>Styles</p>
                     <ul>
@@ -39,12 +39,12 @@ export default function Typography() {
                         <li>Regular</li>
                     </ul>
                 </div>
-                <div>
+                <div className={styles.fontOne}>
                     <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
                     <p>abcdefghijklmnopqrstuvwxyz</p>
                     <p>1234567890</p>
                 </div>
-                <div>
+                <div className={styles.fontTwo}>
                     <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
                     <p>abcdefghijklmnopqrstuvwxyz</p>
                     <p>1234567890</p>                    
