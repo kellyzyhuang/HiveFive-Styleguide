@@ -52,6 +52,7 @@ export default function Colors() {
           </div>
           <div className={styles.examplesContainer}>
             <h2 className={styles.heading}>003 Examples</h2>
+            <button className={styles.startButton}>Start Buzzin'</button>
           </div>
         </section>
       </main>
