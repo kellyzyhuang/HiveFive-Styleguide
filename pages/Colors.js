@@ -41,7 +41,7 @@ export default function Colors() {
             </div>              
           </div>
           <h2 className={styles.heading}>002 Colour Accessibility</h2>
-          <p>Our colour contrast is tested by both a figma plugin, and from the website Coolors.</p>
+          <p className={styles.bodyStyle}>Our colour contrast is tested by both a figma plugin, and from the website Coolors.</p>
           <div className={styles.accessibilityContainer}>
             <div className={styles.contrastResults}>
               <Image src={"/images/17.81rate.png"} width={475} height={175} alt="screenshot of color contrast result 17.81"/>
@@ -50,9 +50,14 @@ export default function Colors() {
               <Image src={"/images/6.07rate.png"} width={475} height={175} alt="screenshot of color contrast result 6.07"/>
             </div>
           </div>
+          <h2 className={styles.heading}>003 Examples</h2>
+          <p className={styles.bodyStyle}>Examples of how the colour palette is applied to our app.</p>
           <div className={styles.examplesContainer}>
-            <h2 className={styles.heading}>003 Examples</h2>
-            <button className={styles.startButton}>Start Buzzin'</button>
+            <div className={styles.examplePhotos}>
+              <Image src={"/images/tutorial_page.png"} width={200} height={420} alt="tutorial page"/>
+              <Image src={"/images/learn_more_page.png"} width={200} height={420} alt="learn more page"/>
+              <Image src={"/images/quiz_page.png"} width={200} height={420} alt="quiz page"/>
+            </div>
           </div>
         </section>
       </main>
