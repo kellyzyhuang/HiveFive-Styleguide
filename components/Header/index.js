@@ -13,7 +13,7 @@ export default function Header(){
                 <ul className={styles.menuList}>
                     <li className={styles.list}><Link href="/">Logo</Link></li>
                     <li className={styles.list}><Link href="/Colors">Colours</Link></li>
-                    <li className={styles.list}><Link href="/">Typography</Link></li>
+                    <li className={styles.list}><Link href="/Typography">Typography</Link></li>
                     <li className={styles.list}><Link href="/Graphics">Graphics</Link></li>
                     <li className={styles.list}><Link href="/References">References</Link></li>
                 </ul>
