@@ -15,19 +15,33 @@ export default function Graphics() {
       <main className={`${styles.main}`}>
         <div className={styles.graphics}>
           <h2>Graphics</h2>
+          <p className={styles.description}>The graphics are minimalist images that use lighter colours and at idealy least one of the colours from our palatte. They are clean, cheerful, and inclusive. Each graphic has a circle as the backdrop. This contributes to the cohesiveness of the graphics even when they stray from the color scheme</p>
           <div className={styles.graphicImgs}>
             <img src="/images/Beekeeper.svg" className={styles.graphicExample}/>
             <img src="/images/donate.svg" className={styles.graphicExample}/>
             <img src="/images/Trivia.svg" className={styles.graphicExample}/>
           </div>
-          <p className={styles.description}>The graphics are minimalist images that use pastel colours and at lease one of the colours from our palatte. They are clean, cheerful, and inclusive. Each graphic has a circle as the backdrop. This contributes to the cohesiveness of the graphics even when they stray from the color scheme</p>
         </div>
         <div className={styles.iconography}>
           <h2>Iconography</h2>
+          <p className={styles.description}>The Icons are clean and recognizable, each with a stroke that is 2px and black. The design of the icons is round and minimalist. all icons found in the app will be on top of our primary color: #FEECAC</p>
           <div className={styles.iconImgs}>
-            <img src="/images/HamburgerIcon.svg" className={styles.iconExample}/>
+            <img src="/images/hamburger.svg" className={styles.iconExample}/>
+            <img src="/images/home.svg" className={styles.iconExample}/>
+            <img src="/images/Quiz-icon.svg" className={styles.iconExample}/>
+            <img src="/images/Settings.svg" className={styles.iconExample}/>
+            <img src="/images/Activity.svg" className={styles.iconExample}/>
           </div>
-          
+          <img src="/images/Spacing.svg" className={styles.spacing}/>
+        </div>
+        <div className={styles.mascot}>
+          <h2>Mascot</h2>
+          <p className={styles.description}>This is our mascot, Beenard! he helps the user through the tutorial at the beginning, teaches them about bees, and keeps the user company! In our minigame, the user must help Beenard find his way back home.</p>
+          <div className={styles.mascotImgs}>
+            <img src="/images/beenard.png" className={styles.beenardExample}/>
+            <img src="/images/beenard-sad.png" className={styles.beenardExample}/>
+            <img src="/images/beenard-excited.png" className={styles.beenardExample}/>
+          </div>
         </div>
       </main>
     </>

@@ -1,17 +1,21 @@
 .main {
     padding: 6rem;
     min-height: 20vh;
+    font-family: var(--font-family);
   }
-.graphics h2, .iconography h2{
-    width: 10rem;
+.graphics h2, .iconography h2, .mascot h2{
+    width: 100%;
     margin: 2rem auto;
     text-align: center;
+    font-size: var(--headings)
 }
 
-.graphicImgs, .iconImgs {
+.graphicImgs, .iconImgs, .mascotImgs {
     display: flex;
     justify-content: space-around;
     align-items: center; 
+    width: 80%;
+    margin: auto;
 }
 
 .graphicExample {
@@ -23,7 +27,30 @@
     width: 50rem;
     text-align: center;
 }
+.iconography, .mascot {
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.iconImgs {
+    background-color: var(--secondary);
+    padding: 2rem;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.spacing {
+    margin-top: 4rem;
+    width: 10rem;
+}
 
 .iconExample {
-    width: 5rem;
+    width: 3rem;
+    padding: 0.5rem;
+}
+
+.beenardExample {
+    width: 10rem;
 }
