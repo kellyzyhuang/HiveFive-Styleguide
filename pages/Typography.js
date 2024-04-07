@@ -13,7 +13,7 @@ export default function Typography() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Lexend:wght@100..900&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Lexend:wght@100..900&display=swap" rel="stylesheet"/>
       </Head>
       <Header/>
       <main className={`${styles.main}`}>
