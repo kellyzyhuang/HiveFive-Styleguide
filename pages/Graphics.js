@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/Graphics.module.css"
 import Header from "@/components/Header";
-import Footer from "@/components/Footer/Footer";
 
 export default function Graphics() {
   return(
