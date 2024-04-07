@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "@/styles/Colors.module.css"
 import Header from "@/components/Header";
 import Image from "next/image";
+import Footer from "@/components/Footer/Footer";
 
 export default function Colors() {
   return(
