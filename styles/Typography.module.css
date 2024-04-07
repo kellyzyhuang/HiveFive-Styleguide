@@ -61,8 +61,8 @@
 }
 
 .fontLexend, .fontBesley{
-    margin: 5rem;
-    font-size: 1.125rem;
+    margin: 2rem;
+    font-size: 1.375rem;
 }
 
 /* font styles */
@@ -90,4 +90,48 @@
     font-weight: 900;
 }
 
-/* font styles */
+/* headings */
+.headingContainer{
+    justify-content: center;
+    align-items: center;
+}
+
+.headingsContainer h2{
+    font-size: 2rem;
+    margin-left: 16rem;
+}
+
+.headings{
+    display: flex;
+}
+
+.headingExamples{
+    text-align: center;
+    line-height: 0.1rem;
+    margin-right: 4rem;
+}
+
+.headOne{
+    font-size: 2.5rem;
+}
+
+.headTwo{
+    font-size: 2.125rem;
+}
+
+.headThree{
+    font-size: 1.75rem;
+}
+
+.headFour{
+    font-size: 1.375rem;
+}
+
+.bodyCopy{
+    font-size: 1rem;
+}
+
+.headingSentences{
+    line-height: 3rem;
+    margin-left: 2rem;
+}
