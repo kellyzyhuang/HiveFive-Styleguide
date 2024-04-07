@@ -10,10 +10,14 @@
 .exampleFonts{
     display: flex;
     flex-direction: column;
+    margin-left: 4rem;
 }
 
 .intro{
+    align-content: center;
     text-align: center;
+    padding: 1rem;
+    width: 70%;
 }
 
 .intro h2{
@@ -23,9 +27,10 @@
 
 .intro p{
     font-size: 1.25rem;
+    line-height: 2rem;
 }
 
-.styleList{
+.styleListBesley, .styleListLexend{
     list-style-type: none;
     line-height: 1.2rem;
 }
@@ -40,4 +45,93 @@
 
 .fontStyles p{
     font-size: 1rem;
+}
+
+.fontStyles{
+    margin-right: 5rem;
+    padding: 1rem;
+}
+
+.lexend, .styleListLexend, .fontLexend{
+    font-family: "Lexend", sans-serif;
+}
+
+.besley, .styleListBesley, .fontBesley{
+    font-family: "Besley", serif;
+}
+
+.fontLexend, .fontBesley{
+    margin: 2rem;
+    font-size: 1.375rem;
+}
+
+/* font styles */
+.italic{
+    font-style: italic;
+}
+
+.light{
+    font-weight: 200;
+}
+
+.med{
+    font-weight: 600;
+}
+
+.semi{
+    font-weight: 700;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.black{
+    font-weight: 900;
+}
+
+/* headings */
+.headingContainer{
+    justify-content: center;
+    align-items: center;
+}
+
+.headingsContainer h2{
+    font-size: 2rem;
+    margin-left: 16rem;
+}
+
+.headings{
+    display: flex;
+}
+
+.headingExamples{
+    text-align: center;
+    line-height: 0.1rem;
+    margin-right: 4rem;
+}
+
+.headOne{
+    font-size: 2.5rem;
+}
+
+.headTwo{
+    font-size: 2.125rem;
+}
+
+.headThree{
+    font-size: 1.75rem;
+}
+
+.headFour{
+    font-size: 1.375rem;
+}
+
+.bodyCopy{
+    font-size: 1rem;
+}
+
+.headingSentences{
+    line-height: 3rem;
+    margin-left: 2rem;
 }
