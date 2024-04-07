@@ -20,32 +20,36 @@ export default function Typography() {
         <section className={styles.Typography}>
             <div className={styles.intro}>
                 <h2>Our Fonts</h2>
-                <p>We are using the fonts Lexend for the body copy, and Dela Gothic One for headings in the app.</p>
+                <p>We are using the fonts Lexend for the body copy, and Besley for headings in the app.</p>
             </div>
             <div className={styles.fontFamily}>
                 <div className={styles.fontStyles}>
-                    <h2>Lexend</h2>
+                    <h2 className={styles.lexend}>Lexend</h2>
                     <p>Styles</p>
-                    <ul className={styles.styleList}>
+                    <ul className={styles.styleListLexend}>
                         <li className={styles.italic}>italic</li>
                         <li className={styles.light}>Light</li>
                         <li className={styles.reg}>Regular</li>
                         <li className={styles.med}>Medium</li>
                         <li className={styles.bold}>Bold</li>
                     </ul>
-                    <h2>Dela Gothic One</h2>
+                    <h2 className={styles.besley}>Besley</h2>
                     <p>Styles</p>
-                    <ul className={styles.styleList}>
+                    <ul className={styles.styleListBesley}>
                         <li className={styles.reg}>Regular</li>
+                        <li className={styles.reg}>Medium</li>
+                        <li className={styles.reg}>Semi-Bold</li>
+                        <li className={styles.reg}>Bold</li>
+                        <li className={styles.reg}>Black</li>
                     </ul>
                 </div>
                 <div className={styles.exampleFonts}>
-                    <div className={styles.fontOne}>
+                    <div className={styles.fontLexend}>
                         <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
                         <p>abcdefghijklmnopqrstuvwxyz</p>
                         <p>1234567890</p>
                     </div>
-                    <div className={styles.fontTwo}>
+                    <div className={styles.fontBesley}>
                         <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
                         <p>abcdefghijklmnopqrstuvwxyz</p>
                         <p>1234567890</p>                    
