@@ -3,11 +3,18 @@
     min-height: 20vh;
     font-family: var(--font-family);
   }
-.graphics h2, .iconography h2, .mascot h2{
+.graphics h2, .iconography h2, .mascot h2, .buttons h2{
     width: 100%;
     margin: 2rem auto;
     text-align: center;
     font-size: var(--headings)
+}
+
+.graphics p, .iconography p, .mascot p, .buttons p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    width: 70%;
+    margin-bottom: 7rem;
 }
 
 .graphicImgs, .iconImgs, .mascotImgs {
@@ -16,6 +23,12 @@
     align-items: center; 
     width: 80%;
     margin: auto;
+}
+
+.graphicImgs {
+    background-color: #fcf9ee;
+    border-radius: 30px;
+    padding: 1rem;
 }
 
 .graphicExample {
@@ -27,11 +40,14 @@
     width: 50rem;
     text-align: center;
 }
-.iconography, .mascot {
+.iconography, .mascot, .buttons {
     margin-top: 20rem;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    width: 80%;
 }
 
 .iconImgs {
@@ -53,4 +69,65 @@
 
 .beenardExample {
     width: 10rem;
+}
+
+.buttonExamples {
+    width: 100%;
+}
+
+.button {
+    background-color: var(--accent);
+    border: none;
+    border-radius: 30px;
+    font-family: var(--font-family);
+    font-size: var(--button-font-size);
+    font-weight: var(--button-font-weight);
+    margin: 2rem;
+}
+
+.start {
+    height: 70px;
+    width: 367px;
+}
+
+.rewards {
+    height: 50px;
+    width: 191px;
+}
+
+.startLearning {
+    background-color: var(--secondary);
+    height: 38px;
+    width: 191px;
+}
+
+.chip {
+    background-color: var(--white);
+    border: var(--accent) solid 2px;
+    height: 38px;
+    width: 87px;  
+}
+
+.mic {
+    height: 76.56px;
+    width: 79px;
+    margin: 2rem;
+    border-radius: 50%;
+    background-color: var(--accent);
+    border: none;
+    padding: 12px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.micImg {
+    height: 54px;
+    width: 54px;
+}
+
+.buttonExamples {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 80%;
+    margin: auto;
 }
