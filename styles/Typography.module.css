@@ -14,7 +14,10 @@
 }
 
 .intro{
+    align-content: center;
     text-align: center;
+    padding: 1rem;
+    width: 70%;
 }
 
 .intro h2{
@@ -24,6 +27,7 @@
 
 .intro p{
     font-size: 1.25rem;
+    line-height: 2rem;
 }
 
 .styleListBesley, .styleListLexend{
@@ -60,3 +64,30 @@
     margin: 5rem;
     font-size: 1.125rem;
 }
+
+/* font styles */
+.italic{
+    font-style: italic;
+}
+
+.light{
+    font-weight: 200;
+}
+
+.med{
+    font-weight: 600;
+}
+
+.semi{
+    font-weight: 700;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.black{
+    font-weight: 900;
+}
+
+/* font styles */
