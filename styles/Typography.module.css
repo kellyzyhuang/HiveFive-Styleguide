@@ -10,6 +10,7 @@
 .exampleFonts{
     display: flex;
     flex-direction: column;
+    margin-left: 4rem;
 }
 
 .intro{
@@ -25,7 +26,7 @@
     font-size: 1.25rem;
 }
 
-.styleList{
+.styleListBesley, .styleListLexend{
     list-style-type: none;
     line-height: 1.2rem;
 }
@@ -40,4 +41,22 @@
 
 .fontStyles p{
     font-size: 1rem;
+}
+
+.fontStyles{
+    margin-right: 5rem;
+    padding: 1rem;
+}
+
+.lexend, .styleListLexend, .fontLexend{
+    font-family: "Lexend", sans-serif;
+}
+
+.besley, .styleListBesley, .fontBesley{
+    font-family: "Besley", serif;
+}
+
+.fontLexend, .fontBesley{
+    margin: 5rem;
+    font-size: 1.125rem;
 }
