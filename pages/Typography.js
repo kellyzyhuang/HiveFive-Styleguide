@@ -20,7 +20,7 @@ export default function Typography() {
         <section className={styles.Typography}>
             <div className={styles.intro}>
                 <h2>Our Fonts</h2>
-                <p>We are using the fonts Lexend for the body copy, and Besley for headings in the app. Lexend, a sans-serif font, is made to be easily readable for users. This font is chosen for the app, because we want all users to comfortably be able to read all the content in our app. Besley, a serif font, has a variety of style. The styles for this font will help give flavour to our app.</p>
+                <p>We are using the fonts Lexend for the body copy, and Besley for headings in the app. Lexend, a sans-serif font, is made to be easily readable for users. This font is chosen for the app, because we want all users to comfortably be able to read all the content in our app. Besley, a serif font, has a variety of style. The styles for this font will help give a timeless feel for our app.</p>
             </div>
             <div className={styles.fontFamily}>
                 <div className={styles.fontStyles}>
@@ -37,10 +37,10 @@ export default function Typography() {
                     <p>Styles</p>
                     <ul className={styles.styleListBesley}>
                         <li className={styles.reg}>Regular</li>
-                        <li className={styles.reg}>Medium</li>
-                        <li className={styles.reg}>Semi-Bold</li>
-                        <li className={styles.reg}>Bold</li>
-                        <li className={styles.reg}>Black</li>
+                        <li className={styles.med}>Medium</li>
+                        <li className={styles.semi}>Semi-Bold</li>
+                        <li className={styles.bold}>Bold</li>
+                        <li className={styles.black}>Black</li>
                     </ul>
                 </div>
                 <div className={styles.exampleFonts}>
@@ -56,11 +56,30 @@ export default function Typography() {
                     </div>
                 </div>
             </div>
-            <div>
+              <div className={styles.headingsContainer}>
                 <h2>Headings</h2>
-                <h2>Body Copy</h2>
-                <h2>Others</h2>
-            </div>
+                <div className={styles.headings}>
+                  <div className={styles.headingExamples}>
+                    <h4 className={styles.headOne}>Heading 1</h4>
+                    <p className={styles.headOne}>40px</p>
+                    <h4 className={styles.headTwo}>Heading 2</h4>
+                    <p className={styles.headTwo}>34px</p>
+                    <h4 className={styles.headThree}>Heading 3</h4>
+                    <p className={styles.headThree}>28px</p>
+                    <h4 className={styles.headFour}>Heading 4</h4>
+                    <p className={styles.headFour}>22px</p>
+                    <h4 className={styles.bodyCopy}>Body Copy</h4>
+                    <p className={styles.bodyCopy}>16px</p>
+                  </div>
+                  <div className={styles.headingSentences}>
+                    <p className={styles.headOne}>This is Heading One.</p>
+                    <p className={styles.headTwo}>This is Heading Two.</p>
+                    <p className={styles.headThree}>This is Heading Three.</p>
+                    <p className={styles.headFour}>This is Heading Four.</p>
+                    <p className={styles.bodyCopy}>This is Body Copy.</p>
+                  </div>
+                </div>
+              </div>
         </section>
       </main>
     </>
