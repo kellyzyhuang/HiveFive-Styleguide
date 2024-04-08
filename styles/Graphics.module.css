@@ -3,21 +3,21 @@
     min-height: 20vh;
     font-family: var(--font-family);
   }
-.graphics h2, .iconography h2, .mascot h2, .buttons h2{
+.graphics h2, .iconography h2, .mascot h2, .buttons h2, .images h2{
     width: 100%;
     margin: 2rem auto;
     text-align: center;
     font-size: var(--headings)
 }
 
-.graphics p, .iconography p, .mascot p, .buttons p {
+.graphics p, .iconography p, .mascot p, .buttons p, .images p {
     font-size: 1.25rem;
     line-height: 2rem;
     width: 70%;
     margin-bottom: 7rem;
 }
 
-.graphicImgs, .iconImgs, .mascotImgs {
+.graphicImgs, .iconImgs, .mascotImgs, .beeImgs {
     display: flex;
     justify-content: space-around;
     align-items: center; 
@@ -40,7 +40,8 @@
     width: 50rem;
     text-align: center;
 }
-.iconography, .mascot, .buttons {
+
+.iconography, .mascot, .buttons, .images {
     margin-top: 20rem;
     margin-left: auto;
     margin-right: auto;
@@ -131,3 +132,84 @@
     width: 80%;
     margin: auto;
 }
+
+.beeImgs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.beeProfile {
+    width: 50%;
+}
+
+.beeLandscape {
+    width: 100%;
+}
+
+.coverPhoto {
+    object-fit: cover;
+    width: 310px;
+    height: 171px;
+    border-radius: 30px;
+    z-index: 2;
+}
+
+.article {
+    position: relative;
+    margin: 2rem;
+    align-content: center;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    background-color: rgba(254, 236, 172, 0.2);
+    z-index: 1;
+  }
+
+  .date {
+    position: absolute;
+    width: 50%;
+    z-index: 3;
+    transform: translateY(-3.2rem)  translateX(2rem);
+    border-radius: 30px;
+    padding-left: 1rem;
+    background-color: var(--accent); 
+  }
+  
+  .title {
+    position: absolute;
+    z-index: 3;
+    background-color: var(--accent);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 4rem;
+    width: 100%;
+    transform: translateY(-2rem);
+  }
+
+  .title p {
+    margin-left: 1rem;
+  }
+
+  .coverGraphic {
+    object-fit: cover;
+    width: 310px;
+    height: 380px;
+    border-radius: 30px;
+    z-index: 2;
+  }
+
+  .graphicSections {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+  }
