@@ -21,6 +21,27 @@ export default function Graphics() {
             <img src="/images/donate.svg" className={styles.graphicExample}/>
             <img src="/images/Trivia.svg" className={styles.graphicExample}/>
           </div>
+          <div className={styles.graphicSections}>
+            <div className={styles.article}>
+              <div className={styles.overlay}></div>
+              <img src="/images/Beekeeper.svg"className={styles.coverGraphic} alt="Cover"></img>
+              <div className={styles.date}>Date</div>
+              <div className={styles.title}><p>Article Title</p></div>
+            </div>
+            <div className={styles.article}>
+              <div className={styles.overlay}></div>
+              <img src="/images/donate.svg" className={styles.coverGraphic} alt="Cover"></img>
+              <div className={styles.date}>Date</div>
+              <div className={styles.title}><p>Article Title</p></div>
+            </div>
+            <div className={styles.article}>
+              <div className={styles.overlay}></div>
+              <img src="/images/Trivia.svg" className={styles.coverGraphic} alt="Cover"></img>
+              <div className={styles.date}>Date</div>
+              <div className={styles.title}><p>Article Title</p></div>
+            </div>
+          </div>
+
         </div>
         <div className={styles.iconography}>
           <h2>Iconography</h2>
@@ -52,6 +73,33 @@ export default function Graphics() {
             <button className={`${styles.button} ${styles.startLearning}`}>Start Learning</button>
             <button className={`${styles.button} ${styles.chip}`}>Chip</button>
             <button className={styles.mic}><img src="/images/mic.svg" className={styles.micImg}/></button>
+          </div>
+        </div>
+        <div className={styles.images}>
+          <h2>Imagery</h2>
+          <p className={styles.description}>Our imagery will include various photos of bees, beekeepers, and environments. These images will serve as coverphotos for articles and quiz questions.</p>
+          <div className={styles.beeImgs}>
+            <img src="/images/bee-image.jpg" className={styles.beeProfile}/>
+            <img src="/images/bee-image3.jpg" className={styles.beeProfile}/>
+            <img src="/images/bee-image2.jpg" className={styles.beeLandscape}/>
+          </div>
+          <div className={styles.article}>
+            <div className={styles.overlay}></div>
+            <img src="/images/bee-image2.jpg" className={styles.coverPhoto} alt="Cover"></img>
+            <div className={styles.date}>Date</div>
+            <div className={styles.title}><p>Article Title</p></div>
+          </div>
+          <div className={styles.article}>
+            <div className={styles.overlay}></div>
+            <img src="/images/bee-image3.jpg" className={styles.coverPhoto} alt="Cover"></img>
+            <div className={styles.date}>Date</div>
+            <div className={styles.title}><p>Article Title</p></div>
+          </div>
+          <div className={styles.article}>
+            <div className={styles.overlay}></div>
+            <img src="/images/bee-image.jpg" className={styles.coverPhoto} alt="Cover"></img>
+            <div className={styles.date}>Date</div>
+            <div className={styles.title}><p>Article Title</p></div>
           </div>
         </div>
       </main>
