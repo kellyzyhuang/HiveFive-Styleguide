@@ -1,0 +1,80 @@
+.variationsContainer {
+  display: grid; 
+  grid-template-columns: 30rem 30rem; 
+  padding: 0; 
+  margin-left: 25rem; 
+}
+
+.gridItem {
+  height: 50%; 
+  width: 50%; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.variationsHeading, .orientationHeading, .faviconHeading, .descriptionHeading {
+  font-family: var(--font-family);
+  font-size: var(--headings); 
+  text-align: center; 
+}
+
+.description {
+  margin-top: 6rem; 
+}
+
+.descriptionParagraph {
+  font-family: var(--font-family); 
+  font-size: 1.25rem;
+  line-height: 2rem;
+  width: 70%;
+  margin-left: 15rem; 
+  margin-bottom: 7rem; 
+}
+
+.faviconLabels {
+  display: grid; 
+  grid-template-columns: auto auto auto; 
+  margin-left: 20.5rem; 
+  margin-bottom: 10rem; 
+}
+
+.label {
+  width: 50%; 
+  height: 50%; 
+  font-family: var(--font-family); 
+  font-size: var(--labels); 
+}
+
+.faviconContainer {
+  display: grid; 
+  grid-template-columns: auto auto auto; 
+  margin-left: 23rem;
+  margin-bottom: 1rem; 
+  margin-top: 5rem;  
+}
+
+.favicon16 {
+  height: 16px; 
+  width: 16px; 
+}
+
+.favicon32 {
+  height: 32px; 
+  width: 32px; 
+}
+
+.favicon48 {
+  height: 48px; 
+  width: 48px; 
+}
+
+.orientationContainer {
+  display: grid; 
+  grid-template-columns: auto auto;
+  margin-left: 23rem; 
+}
+
+.spacingItem {
+  width: 65%; 
+  height: 65%; 
+}
