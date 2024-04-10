@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "@/styles/Graphics.module.css"
 import Header from "@/components/Header";
+import Footer from "@/components/Footer/Footer";
 
 export default function Graphics() {
   return(
@@ -26,8 +27,8 @@ export default function Graphics() {
 
         </div>
         <div className={styles.iconography}>
-          <h2>Iconography</h2>
-          <div className={styles.linesContainer}><hr className={styles.lines}></hr><hr className={styles.lines}></hr></div>
+          <h2>001 Iconography</h2>
+          <div className={styles.linesContainer}><hr className={styles.lines2}></hr><hr className={styles.lines2}></hr></div>
           <p className={styles.description}>The Icons are clean and recognizable, each with a stroke that is 2px and black. The design of the icons is rounded and minimalist to make them approachable. Nearly all icons found in the app will be on top of our primary color: #FEECAC. Each icon will have its name listed beneath it to maximize accessibility</p>
           <div className={styles.iconImgs}>
             <img src="/images/hamburger.svg" className={styles.iconExample}/>
@@ -39,7 +40,7 @@ export default function Graphics() {
           <img src="/images/Spacing.svg" className={styles.spacing}/>
         </div>
         <div className={styles.mascot}>
-          <h2>Mascot</h2>
+          <h2>002 Mascot</h2>
           <div className={styles.linesContainer}><hr className={styles.lines}></hr><hr className={styles.lines}></hr></div>
           <p className={styles.description}>This is our mascot, Beenard! he helps the user through the tutorial at the beginning, teaches them about bees, and keeps the user company! In our minigame, the user must help Beenard find his way back home.</p>
           <div className={styles.mascotImgs}>
@@ -49,7 +50,7 @@ export default function Graphics() {
           </div>
         </div>
         <div className={styles.buttons}>
-          <h2>Buttons</h2>
+          <h2>003 Buttons</h2>
           <div className={styles.linesContainer}><hr className={styles.lines}></hr><hr className={styles.lines}></hr></div>
           <p className={styles.description}>Buttons will not have different states since this is a mobile app. All buttons (with the exception of some chips and secondary buttons)  will utilize the accent colour: #FFC93D.</p>
           <div className={styles.buttonExamples}>
@@ -61,7 +62,7 @@ export default function Graphics() {
           </div>
         </div>
         <div className={styles.images}>
-          <h2>Imagery</h2>
+          <h2>004 Imagery</h2>
           <div className={styles.linesContainer}><hr className={styles.lines}></hr><hr className={styles.lines}></hr></div>
           <p className={styles.description}>Our imagery will include various photos of bees, beekeepers, and environments. These images will serve as coverphotos for articles and quiz questions. All photos must be high quality and not appear pixelated</p>
           <div className={styles.beeImgs}>
@@ -91,6 +92,7 @@ export default function Graphics() {
           <img src="/images/articles.png" className={styles.quiz}/>
         </div>
       </main>
+      <Footer/>
     </>
   )
 }

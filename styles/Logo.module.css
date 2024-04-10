@@ -3,6 +3,7 @@
   grid-template-columns: 30rem 30rem; 
   padding: 0; 
   margin-left: 25rem; 
+  margin-top: 5rem; 
 }
 
 .gridItem {
@@ -20,6 +21,7 @@
 
 .description {
   margin-top: 6rem; 
+  text-align: center; 
 }
 
 .descriptionParagraph {
@@ -58,6 +60,12 @@
   width: 16px; 
 }
 
+.favicon16:hover, .favicon32:hover, .favicon48:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px var(--accent);
+  background-color: rgb(243, 239, 224); 
+}
+
 .favicon32 {
   height: 32px; 
   width: 32px; 
@@ -72,9 +80,37 @@
   display: grid; 
   grid-template-columns: auto auto;
   margin-left: 23rem; 
+  margin-top: 5rem; 
 }
 
 .spacingItem {
   width: 65%; 
   height: 65%; 
+}
+
+.lines {
+  background-color: var(--accent);
+  border: none;
+  height: 0.15rem;
+  display: inline-block;
+  width: 35%;
+  margin: 0;
+}
+
+.lines2 {
+  background-color: var(--accent);
+  border: none;
+  height: 0.15rem;
+  display: inline-block;
+  width: 30%;
+  margin: 0;
+}
+
+
+.linesContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-3.5rem);
 }

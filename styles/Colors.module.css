@@ -24,6 +24,7 @@
     line-height: 2rem;
     width: 70%;
     margin-bottom: 7rem;
+    text-align: center; 
 }
 
 .whiteContainer, .secondaryContainer, .accentContainer, .blackContainer{
@@ -69,9 +70,36 @@
 .examplePhotos img{
     margin: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10rem; 
 }
 
 .bodyStyle{
     margin-top: -1rem;
     font-size: 1rem;
+}
+
+.lines {
+    background-color: var(--accent);
+    border: none;
+    height: 0.15rem;
+    display: inline-block;
+    width: 35%;
+    margin: 0;
+}
+
+.lines2 {
+    background-color: var(--accent);
+    border: none;
+    height: 0.15rem;
+    display: inline-block;
+    width: 30%;
+    margin: 0;
+}
+  
+.linesContainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-3.5rem);
 }

@@ -246,6 +246,15 @@
     margin: 0;
   }
 
+  .lines2 {
+    background-color: var(--accent);
+    border: none;
+    height: 0.15rem;
+    display: inline-block;
+    width: 30%;
+    margin: 0;
+  }
+
   .linesContainer {
     width: 80%;
     margin: auto;

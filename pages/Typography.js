@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Typography.module.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer/Footer";
 
 export default function Typography() {
   return (
@@ -20,6 +21,7 @@ export default function Typography() {
         <section className={styles.Typography}>
             <div className={styles.intro}>
                 <h2>Our Fonts</h2>
+                <div className={styles.linesContainer}><hr className={styles.lines}></hr><hr className={styles.lines}></hr></div>
                 <p>We are using the fonts Lexend for the body copy, and Besley for headings in the app. Lexend, a sans-serif font, is made to be easily readable for users. This font is chosen for the app, because we want all users to comfortably be able to read all the content in our app. Besley, a serif font, has a variety of style. The styles for this font will help give a timeless feel for our app.</p>
             </div>
             <div className={styles.fontFamily}>
@@ -57,7 +59,8 @@ export default function Typography() {
                 </div>
             </div>
               <div className={styles.headingsContainer}>
-                <h2>Headings</h2>
+                <h2 className={styles.headingsHeading}>001 Headings</h2>
+                <div className={styles.linesContainer}><hr className={styles.lines2}></hr><hr className={styles.lines3}></hr></div>
                 <div className={styles.headings}>
                   <div className={styles.headingExamples}>
                     <h4 className={styles.headOne}>Heading 1</h4>
@@ -82,6 +85,7 @@ export default function Typography() {
               </div>
         </section>
       </main>
+      <Footer/>
     </>
   );
 }

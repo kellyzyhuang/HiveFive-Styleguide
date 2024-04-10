@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rem;
+  min-height: 20vh;
+  font-family: var(--font-family);
+}
+
+.listItem {
+  padding: 1rem;  
+  font-size: 1.5rem; 
+}
+
+.headingContainer {
+  transform: translate(0, -4rem); 
+  width: 70%; 
+}
+
+.heading {
+  font-size: 2rem; 
+  padding-bottom: 0.5rem; 
+  transform: translate(20.5rem); 
+}
+
+.lines {
+  background-color: var(--accent);
+  border: none;
+  height: 0.15rem;
+  display: inline-block;
+  width: 35%;
+  margin: 0;
+}
+
+.linesContainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-3.5rem);
+}

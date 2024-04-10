@@ -17,8 +17,10 @@ export default function Colors() {
       <main className={`${styles.main}`}>
         <section className={styles.colors}>
           <h2 className={styles.heading}>Our Colours</h2>
+          <div className={styles.linesContainer}><hr className={styles.lines}></hr><hr className={styles.lines}></hr></div>
           <p className={styles.bodyCopy}>HiveFive's colours represents the bees. Our team want the palette to be connected with the bees, as that is our theme for this app. Yellow represents joy, which is what our team want the users to feel whenever they use our app. Alongside joy, yellow also represents optimism and hope. As the purpose of this app is to give notice and attention to the current situation of the bees in today's society, our team hopes that the users can feel optimistic that our bees will thrive in our planet once again.</p>
           <h2 className={styles.heading}>001 Palette</h2>
+          <div className={styles.linesContainer}><hr className={styles.lines}></hr><hr className={styles.lines}></hr></div>
           <div className={styles.palette}>
             <div className={styles.whiteContainer}>
               <p>#FFFFFF</p>
@@ -42,6 +44,7 @@ export default function Colors() {
             </div>              
           </div>
           <h2 className={styles.heading}>002 Colour Accessibility</h2>
+          <div className={styles.linesContainer}><hr className={styles.lines2}></hr><hr className={styles.lines2}></hr></div>
           <p className={styles.bodyStyle}>Our colour contrast is tested by both a figma plugin, and from the website Coolors.</p>
           <div className={styles.accessibilityContainer}>
             <div className={styles.contrastResults}>
@@ -52,6 +55,7 @@ export default function Colors() {
             </div>
           </div>
           <h2 className={styles.heading}>003 Examples</h2>
+          <div className={styles.linesContainer}><hr className={styles.lines}></hr><hr className={styles.lines}></hr></div>
           <p className={styles.bodyStyle}>Examples of how the colour palette is applied to our app.</p>
           <div className={styles.examplesContainer}>
             <div className={styles.examplePhotos}>

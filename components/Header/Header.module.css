@@ -28,14 +28,20 @@
 .logo{
     display: flex;
     align-items: center;
+    margin-left: 2rem; 
 }
 
-.logoPhoto{
-    margin-left: 2rem;
+.logoImage {
+    width: 60px; 
+    height: 15%;
+    margin-right: 1rem; 
 }
 
 .logoName{
-    font-weight: 600;
-    margin-left: 0.7rem;
+    font-weight: 600; 
     font-size: 2rem;
+}
+
+.link:hover {
+    border-bottom: 3px solid var(--white); 
 }

@@ -28,6 +28,7 @@
 .intro p{
     font-size: 1.25rem;
     line-height: 2rem;
+    text-align: center; 
 }
 
 .styleListBesley, .styleListLexend{
@@ -134,4 +135,44 @@
 .headingSentences{
     line-height: 3rem;
     margin-left: 2rem;
+}
+
+.lines {
+    background-color: var(--accent);
+    border: none;
+    height: 0.15rem;
+    display: inline-block;
+    width: 35%;
+    margin: 0;
+}
+  
+.linesContainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-2rem);
+}
+
+.lines2 {
+    background-color: var(--accent);
+    border: none;
+    height: 0.15rem;
+    display: inline-block;
+    width: 30%;
+    margin: 0; 
+    transform: translate(-5rem); 
+}
+
+.lines3 {
+    background-color: var(--accent);
+    border: none;
+    height: 0.15rem;
+    display: inline-block;
+    width: 30%;
+    margin: 0;
+}
+
+.headingsHeading {
+    transform: translate(-5rem, 1rem); 
 }

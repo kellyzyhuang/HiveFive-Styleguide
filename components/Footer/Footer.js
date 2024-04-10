@@ -1,10 +1,11 @@
 import styles from "./Footer.module.css";
+import Link from 'next/link'; 
 
 export default function Footer(){
     return(
         <footer className={styles.footer}>
             <div className={styles.logoSection}>
-                <img src="/images/Happy Bee.svg" alt="beenard" className={styles.logo} />
+                <a href="/"><img src="/images/Happy Bee.svg" alt="beenard" className={styles.logo} /></a>
                 <h2>HiveFive</h2>
                 <p>Help save the bees.</p>
             </div>
@@ -22,8 +23,15 @@ export default function Footer(){
                     <p className={styles.course}>MDIA2106</p>
                     <p>D3 - Set G</p>
                 </div>
+                <div className={styles.category}>
+                    <h3>Pages</h3>
+                    <p><Link href="/Logo" className={styles.footerLink}>Logo</Link></p>
+                    <p><Link href="/Colors" className={styles.footerLink}>Colours</Link></p>
+                    <p><Link href="/Typography" className={styles.footerLink}>Typography</Link></p>
+                    <p><Link href="/Graphics" className={styles.footerLink}>Graphics</Link></p>
+                </div>
             </div>
-            <p className={styles.copyRight}>© 2024 HiveFive. All rights reserved.</p>
+            <p className={styles.copyright}>© HiveFive 2024. All Rights Reserved.</p>
         </footer>
     )
 }
