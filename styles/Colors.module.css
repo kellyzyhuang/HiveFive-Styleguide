@@ -39,7 +39,7 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
     transform-origin: bottom;
-
+    animation: ease-in-out; 
 }
 
 
@@ -109,5 +109,26 @@
     display: flex;
     justify-content: space-between;
     transform: translateY(-3.5rem);
+}
+
+.paragraph1, .paragraph2, .paragraph3, .paragraph4 {
+    width: 200px;
+    position: absolute;  
+}
+
+.paragraph1 {
+    transform: translate(-12rem, 0.5rem); 
+}
+
+.paragraph2 {
+    transform: translate(61rem); 
+}
+
+.paragraph3 {
+    transform: translate(-12rem, 11.5rem); 
+}
+
+.paragraph4 {
+    transform: translate(61rem, 11rem); 
 }
 

@@ -81,6 +81,8 @@ export default function Typography() {
                     <p className={styles.headFour}>This is Heading Four.</p>
                     <p className={styles.bodyCopy}>This is Body Copy.</p>
                   </div>
+                  <img src="/images/fontregular.svg" className={styles.fontregular}></img>
+                  <img src="/images/fontbold.svg" className={styles.fontbold}></img>
                 </div>
               </div>
         </section>

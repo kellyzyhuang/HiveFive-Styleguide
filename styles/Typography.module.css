@@ -176,3 +176,17 @@
 .headingsHeading {
     transform: translate(-5rem, 1rem); 
 }
+
+.fontregular {
+    position: absolute; 
+    width: 20%; 
+    height: 20%; 
+    transform: translate(40rem, 10rem); 
+}
+
+.fontbold {
+    position: absolute;
+    width: 20%; 
+    height: 20%;  
+    transform: translate(-18rem, 10rem); 
+}

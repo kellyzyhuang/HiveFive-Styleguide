@@ -25,6 +25,10 @@ export default function Logo() {
       </section>
       <section className={styles.variations}>
         <h2 className={styles.variationsHeading}>001 Logo Variations</h2>
+        <img src="/images/originalfullcolour.svg" className={styles.full}/>
+        <img src="/images/blackandwhite.svg" className={styles.bw}/>
+        <img src="/images/monochromatic2.svg" className={styles.mono}/>
+        <img src="/images/grayscale2.svg" className={styles.gray}/>
         <div className={styles.linesContainer}><hr className={styles.lines2}></hr><hr className={styles.lines2}></hr></div>
         <div className={styles.variationsContainer}>
           <img src="/images/Original.svg" alt="original bernard" className={styles.gridItem}></img>
@@ -45,11 +49,12 @@ export default function Logo() {
       </section>
       <section className={styles.favicon}>
         <h3 className={styles.faviconHeading}>003 Favicons</h3>
-        <div className={styles.linesContainer}><hr className={styles.lines}></hr><hr className={styles.lines}></hr></div>
+        <p className={styles.faviconParagraph}>Each favicon has a clear space of 1/4 its length. 16px = 4px, 32px = 8px, 48px = 12px.</p>
+        <div className={styles.linesContainer}><hr className={styles.lines3}></hr><hr className={styles.lines3}></hr></div>
         <div className={styles.faviconContainer}>
-          <img src="/images/16px.svg" alt="16px beenard favicon" className={styles.favicon16}></img>
+          <img src="/images/32px.svg" alt="16px beenard favicon" className={styles.favicon16}></img>
           <img src="/images/32px.svg" alt="32px beenard favicon" className={styles.favicon32}></img>
-          <img src="/images/48px.svg" alt="48px beenard favicon" className={styles.favicon48}></img>
+          <img src="/images/32px.svg" alt="48px beenard favicon" className={styles.favicon48}></img>
         </div>
         <div className={styles.faviconLabels}>
           <h4 className={styles.label}>16px</h4>

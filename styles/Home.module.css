@@ -115,7 +115,15 @@
   color: var(--accent); 
 }
 
+.dottedline1, .dottedline2 {
+  width: 20%; 
+  height: 20%; 
+  position: absolute; 
+}
 
-
+.dottedline1 {
+  transform: translate(-30rem); 
+  z-index: 1; 
+}
 
 

@@ -47,6 +47,10 @@ export default function Colors() {
           <div className={styles.linesContainer}><hr className={styles.lines2}></hr><hr className={styles.lines2}></hr></div>
           <p className={styles.bodyStyle}>Our colour contrast is tested by both a figma plugin, and from the website Coolors.</p>
           <div className={styles.accessibilityContainer}>
+            <p className={styles.paragraph1}>These colours pass the contrast check for small and large text to a high degree at 17.81 which ensures that the text or icons are visible to everyone with different vision capabilities.</p>
+            <p className={styles.paragraph2}>These colours pass the contrast check for small and large text to a high degree at 13.67 which ensures that the text or icons are visible to everyone with different vision capabilities.</p>
+            <p className={styles.paragraph3}>These colours pass the contrast check for small and large text to almost the full degree at 10 which ensures that the text or icons are visible to everyone with different vision capabilities.</p>
+            <p className={styles.paragraph4}>These colours pass the contrast check for small and large text to almost the full degree at 11.94 which ensures that the text or icons are visible to everyone with different vision capabilities.</p>
             <div className={styles.contrastResults}>
               <div className={styles.topResults}>
                 <Image src={"/images/17.81rate.png"} width={475} height={175} alt="screenshot of color contrast result 17.81"/>

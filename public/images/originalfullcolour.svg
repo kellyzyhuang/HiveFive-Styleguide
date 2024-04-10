@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 464.04 262.2">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc93d;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #000;
+        font-family: Lexend-Regular, Lexend;
+        font-size: 50px;
+        font-variation-settings: 'wght' 400;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M358.26,251.03c-1.04,1.66-2.76,2.76-4.7,3l-64.46,8.12c-3.56.45-6.81-2.07-7.26-5.64-.45-3.56,2.07-6.81,5.64-7.26l43.47-5.48c-30.79-12.48-55.95-29.68-74.92-51.29-23.11-26.33-37.76-59.97-43.55-100-.47-3.28,1.8-6.32,5.08-6.8,1.19-.17,2.35.02,3.37.49,1.78.82,3.13,2.5,3.43,4.59,5.45,37.69,19.14,69.25,40.69,93.8,18.96,21.6,44.71,38.55,76.59,50.49l-16.33-48.04c-1.16-3.4.66-7.09,4.06-8.25,1.64-.56,3.36-.42,4.82.25,1.56.72,2.83,2.05,3.43,3.81l21.3,62.65c.63,1.85.39,3.88-.64,5.54Z"/>
+      <text class="cls-4" transform="translate(0 42.5)"><tspan x="0" y="0">Original </tspan><tspan class="cls-2" x="207.45" y="0">F</tspan><tspan x="236.8" y="0">ull Co</tspan><tspan class="cls-3" x="370.85" y="0">l</tspan><tspan x="382.9" y="0">our</tspan></text>
+    </g>
+  </g>
+</svg>

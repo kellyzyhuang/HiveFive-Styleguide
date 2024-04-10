@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 395.39 282.92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffc93d;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: #000;
+        font-family: Lexend-Regular, Lexend;
+        font-size: 50px;
+        font-variation-settings: 'wght' 400;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M226.35,1.27c-1.57-1.16-3.58-1.55-5.47-1.06l-62.93,16.16c-3.48.89-5.57,4.43-4.68,7.91.89,3.48,4.43,5.57,7.91,4.68l42.44-10.89c-24.04,22.93-41.12,48.18-50.81,75.25-11.81,32.98-13.06,69.66-3.72,109.01.77,3.22,4,5.22,7.22,4.45,1.17-.28,2.18-.88,2.95-1.69,1.36-1.42,1.99-3.48,1.5-5.53-8.8-37.05-7.67-71.43,3.34-102.19,9.69-27.06,27.4-52.29,52.65-75.12l2.48,50.68c.17,3.59,3.22,6.35,6.81,6.18,1.73-.09,3.28-.84,4.39-2.01,1.19-1.24,1.88-2.95,1.79-4.8l-3.23-66.1c-.1-1.95-1.06-3.75-2.63-4.91Z"/>
+      <text class="cls-5" transform="translate(0 270.67)"><tspan class="cls-3" x="0" y="0">F</tspan><tspan x="29.35" y="0">ont</tspan><tspan class="cls-3" x="109.05" y="0">w</tspan><tspan x="148.3" y="0">eight </tspan><tspan class="cls-2" x="286.9" y="0">B</tspan><tspan x="320.9" y="0">o</tspan><tspan class="cls-4" x="351.65" y="0">l</tspan><tspan x="363.69" y="0">d</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -23,6 +23,10 @@ export default function References() {
             <li className={styles.listItem}>Coolors - https://coolors.co/</li>
             <li className={styles.listItem}>Pexels - https://www.pexels.com/</li>
             <li className={styles.listItem}>Behance - https://www.behance.net/</li>
+            <li className={styles.listItem}>Google Fonts (Lexend) - https://fonts.google.com/specimen/Lexend</li>
+            <li className={styles.listItem}>Google Fonts (Besley) - https://fonts.google.com/specimen/Besley?query=besley</li>
+            <li className={styles.listItem}>Figma Plugin (Contrast) - https://www.figma.com/community/plugin/748533339900865323</li>
+            <li className={styles.listItem}>Adobe Stock - https://stock.adobe.com/ca/</li>
           </ul>
         </div>
       </main>

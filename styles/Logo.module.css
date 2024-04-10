@@ -106,6 +106,44 @@
   margin: 0;
 }
 
+.lines3 {
+  background-color: var(--accent);
+  border: none;
+  height: 0.15rem;
+  display: inline-block;
+  width: 30%;
+  margin: 0;
+  transform: translate(0, -2.5rem); 
+}
+
+
+.full {
+  width: 16%; 
+  height: 16%; 
+  position: absolute;
+  transform: translate(12rem, 0rem);  
+}
+
+.bw {
+  width: 16%; 
+  height: 16%; 
+  position: absolute; 
+  transform: translate(63rem); 
+}
+
+.mono {
+  width: 16%; 
+  height: 16%; 
+  position: absolute; 
+  transform: translate(65rem, 25rem); 
+}
+
+.gray {
+  width: 16%; 
+  height: 16%; 
+  position: absolute; 
+  transform: translate(12rem, 25rem); 
+}
 
 .linesContainer {
   width: 80%;
@@ -113,4 +151,10 @@
   display: flex;
   justify-content: space-between;
   transform: translateY(-3.5rem);
+}
+
+.faviconParagraph {
+  font-family: var(--font-family); 
+  font-size: 1rem; 
+  text-align: center; 
 }
