@@ -24,23 +24,23 @@ export default function Colors() {
           <div className={styles.palette}>
             <div className={styles.whiteContainer}>
               <p>#FFFFFF</p>
-              <div className={styles.white}></div>
-              <p>White</p>
+              <Image className={styles.white} src={"/images/white_color.svg"} width={1} height={1}/>
+              <p className={styles.colorName}>White</p>
             </div>
             <div className={styles.secondaryContainer}>
               <p>#FEECAC</p>
-              <div className={styles.secondary}></div>
-              <p>Vanilla</p>     
+              <Image className={styles.secondary} src={"/images/sunglow_color.svg"} width={1} height={1}/>
+              <p className={styles.colorName}>Vanilla</p>     
             </div>
             <div className={styles.accentContainer}>
               <p>#FFC93D</p>             
-              <div className={styles.accent}></div>
-              <p>Sunglow</p>
+              <Image className={styles.accent} src={"/images/vanilla_color.svg"} width={1} height={1}/>
+              <p className={styles.colorName}>Sunglow</p>
             </div>
             <div className={styles.blackContainer}>
               <p>#000000</p>
-              <div className={styles.black}></div>
-              <p>Black</p>
+              <Image className={styles.black} src={"/images/black_color.svg"} width={1} height={1}/>
+              <p className={styles.colorName}>Black</p>
             </div>              
           </div>
           <h2 className={styles.heading}>002 Colour Accessibility</h2>
@@ -48,10 +48,14 @@ export default function Colors() {
           <p className={styles.bodyStyle}>Our colour contrast is tested by both a figma plugin, and from the website Coolors.</p>
           <div className={styles.accessibilityContainer}>
             <div className={styles.contrastResults}>
-              <Image src={"/images/17.81rate.png"} width={475} height={175} alt="screenshot of color contrast result 17.81"/>
-              <Image src={"/images/13.67rate.png"} width={475} height={175} alt="screenshot of color contrast result 13.67"/>
-              <Image src={"/images/10rate.png"} width={475} height={175} alt="screenshot of color contrast result 10"/>
-              <Image src={"/images/11.94rate.png"} width={475} height={175} alt="screenshot of color contrast result 11.94"/>
+              <div className={styles.topResults}>
+                <Image src={"/images/17.81rate.png"} width={475} height={175} alt="screenshot of color contrast result 17.81"/>
+                <Image src={"/images/13.67rate.png"} width={475} height={175} alt="screenshot of color contrast result 13.67"/>
+              </div>
+              <div className={styles.bottomResults}>
+                <Image src={"/images/10rate.png"} width={475} height={175} alt="screenshot of color contrast result 10"/>
+                <Image src={"/images/11.94rate.png"} width={475} height={175} alt="screenshot of color contrast result 11.94"/>
+              </div>
             </div>
           </div>
           <h2 className={styles.heading}>003 Examples</h2>
