@@ -1,9 +1,15 @@
 .variationsContainer {
   display: grid; 
   grid-template-columns: 30rem 30rem; 
-  padding: 0; 
-  margin-left: 25rem; 
-  margin-top: 5rem; 
+  justify-content: center;
+  width: 100%; 
+  padding-left: 120px; 
+  padding-top: 80px; 
+}
+
+.variationsTextContainer {
+  display: flex; 
+  padding-left: 150px; 
 }
 
 .gridItem {
@@ -11,6 +17,9 @@
   width: 50%; 
   padding: 0; 
   margin: 0; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
 }
 
 .variationsHeading, .orientationHeading, .faviconHeading, .descriptionHeading {

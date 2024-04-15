@@ -25,10 +25,12 @@ export default function Logo() {
       </section>
       <section className={styles.variations}>
         <h2 className={styles.variationsHeading}>001 Logo Variations</h2>
-        <img src="/images/originalfullcolour.svg" className={styles.full}/>
-        <img src="/images/blackandwhite.svg" className={styles.bw}/>
-        <img src="/images/monochromatic2.svg" className={styles.mono}/>
-        <img src="/images/grayscale2.svg" className={styles.gray}/>
+        <div className={styles.variationsTextContainer}>
+          <img src="/images/originalfullcolour.svg" className={styles.full}/>
+          <img src="/images/blackandwhite.svg" className={styles.bw}/>
+          <img src="/images/monochromatic2.svg" className={styles.mono}/>
+          <img src="/images/grayscale2.svg" className={styles.gray}/>
+        </div>
         <div className={styles.linesContainer}><hr className={styles.lines2}></hr><hr className={styles.lines2}></hr></div>
         <div className={styles.variationsContainer}>
           <img src="/images/Original.svg" alt="original bernard" className={styles.gridItem}></img>
