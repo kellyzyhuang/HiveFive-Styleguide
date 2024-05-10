@@ -7,7 +7,7 @@
     margin-top: 4rem;
 }
 
-.palette{
+.palette, .paletteBright, .palettePastel{
     display: flex;
     justify-content: center;
     margin: 3rem;
@@ -28,7 +28,7 @@
     text-align: center; 
 }
 
-.whiteContainer, .secondaryContainer, .accentContainer, .blackContainer{
+.whiteContainer, .secondaryContainer, .accentContainer, .blackContainer, .salmonContainer, .mistyRoseContainer, .appleGreenContainer, .nyanzaContainer, .tiffBlueContainer, .azureContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +50,7 @@
   }
   
 
-.white, .secondary, .accent, .black {
+.white, .secondary, .accent, .black, .salmon, .mistyRose, .appleGreen, .nyanza, .tiffBlue, .azure {
     height: 20rem;
     width: 18rem;
     margin-left: 1rem;
