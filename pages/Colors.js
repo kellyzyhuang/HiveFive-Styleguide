@@ -30,18 +30,52 @@ export default function Colors() {
             <div className={styles.secondaryContainer}>
               <p>#FEECAC</p>
               <Image className={styles.secondary} src={"/images/sunglow_color.svg"} width={1} height={1}/>
-              <p className={styles.colorName}>Vanilla</p>     
+              <p className={styles.colorName}>Sunglow</p>     
             </div>
             <div className={styles.accentContainer}>
               <p>#FFC93D</p>             
               <Image className={styles.accent} src={"/images/vanilla_color.svg"} width={1} height={1}/>
-              <p className={styles.colorName}>Sunglow</p>
+              <p className={styles.colorName}>Vanilla</p>
             </div>
             <div className={styles.blackContainer}>
               <p>#000000</p>
               <Image className={styles.black} src={"/images/black_color.svg"} width={1} height={1}/>
               <p className={styles.colorName}>Black</p>
-            </div>              
+            </div> 
+          </div>
+          <div className={styles.paletteBright}>
+            <div className={styles.salmonContainer}>
+              <p>#F48978</p>
+              <Image className={styles.salmon} src={"/images/salmon.svg"} width={1} height={1}/>
+              <p className={styles.colorName}>Salmon</p>
+            </div>
+            <div className={styles.appleGreenContainer}>
+              <p>#87AF1B</p>
+              <Image className={styles.appleGreen} src={"/images/apple_green.svg"} width={1} height={1}/>
+              <p className={styles.colorName}>Apple Green</p>
+            </div>
+            <div className={styles.tiffBlueContainer}>
+              <p>#79C9BC</p>
+              <Image className={styles.tiffBlue} src={"/images/tiffany_blue.svg"} width={1} height={1}/>
+              <p className={styles.colorName}>Tiffany Blue</p>
+            </div>
+          </div>   
+          <div className={styles.palettePastel}>       
+            <div className={styles.mistyRoseContainer}>
+              <p>#FFE6E2</p>
+              <Image className={styles.mistyRose} src={"/images/misty_rose.svg"} width={1} height={1}/>
+              <p className={styles.colorName}>Misty Rose</p>
+            </div> 
+            <div className={styles.nyanzaContainer}>
+              <p>#EAF6C8</p>
+              <Image className={styles.nyanza} src={"/images/nyanza.svg"} width={1} height={1}/>
+              <p className={styles.colorName}>Nyanza</p>
+            </div> 
+            <div className={styles.azureContainer}>
+              <p>#E0F4F1</p>
+              <Image className={styles.azure} src={"/images/azure_blue.svg"} width={1} height={1}/>
+              <p className={styles.colorName}>Azure</p>
+            </div>     
           </div>
           <h2 className={styles.heading}>002 Colour Accessibility</h2>
           <div className={styles.linesContainer}><hr className={styles.lines2}></hr><hr className={styles.lines2}></hr></div>
