@@ -35,26 +35,12 @@ export default function Typography() {
                         <li className={styles.med}>Medium</li>
                         <li className={styles.bold}>Bold</li>
                     </ul>
-                    <h2 className={styles.besley}>Besley</h2>
-                    <p>Styles</p>
-                    <ul className={styles.styleListBesley}>
-                        <li className={styles.reg}>Regular</li>
-                        <li className={styles.med}>Medium</li>
-                        <li className={styles.semi}>Semi-Bold</li>
-                        <li className={styles.bold}>Bold</li>
-                        <li className={styles.black}>Black</li>
-                    </ul>
                 </div>
                 <div className={styles.exampleFonts}>
                     <div className={styles.fontLexend}>
                         <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
                         <p>abcdefghijklmnopqrstuvwxyz</p>
                         <p>1234567890</p>
-                    </div>
-                    <div className={styles.fontBesley}>
-                        <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-                        <p>abcdefghijklmnopqrstuvwxyz</p>
-                        <p>1234567890</p>                    
                     </div>
                 </div>
             </div>
