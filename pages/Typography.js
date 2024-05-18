@@ -22,7 +22,7 @@ export default function Typography() {
             <div className={styles.intro}>
                 <h2>Our Fonts</h2>
                 <div className={styles.linesContainer}><hr className={styles.lines}></hr><hr className={styles.lines}></hr></div>
-                <p>We are using the fonts Lexend for the body copy, and Besley for headings in the app. Lexend, a sans-serif font, is made to be easily readable for users. This font is chosen for the app, because we want all users to comfortably be able to read all the content in our app. Besley, a serif font, has a variety of style. The styles for this font will help give a timeless feel for our app. Both of these fonts support languages from all continents.</p>
+                <p>We are using Lexend for our app. Lexend, a sans-serif font, is made to be easily readable for users. This font is chosen for the app, because we want all users to comfortably be able to read all the content in our app. Lexend supports languages from all continents.</p>
             </div>
             <div className={styles.fontFamily}>
                 <div className={styles.fontStyles}>

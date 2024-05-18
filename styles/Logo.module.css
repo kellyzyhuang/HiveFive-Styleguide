@@ -130,6 +130,50 @@
   width: 16%; 
   height: 16%; 
   position: absolute;
+  transform: translate(5rem, 0rem);  
+}
+
+.bw {
+  width: 16%; 
+  height: 16%; 
+  position: absolute; 
+  transform: translate(52rem); 
+}
+
+.mono {
+  width: 16%; 
+  height: 16%; 
+  position: absolute; 
+  transform: translate(54rem, 25rem); 
+}
+
+.gray {
+  width: 16%; 
+  height: 16%; 
+  position: absolute; 
+  transform: translate(5rem, 25rem); 
+}
+
+.linesContainer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-3.5rem);
+}
+
+.faviconParagraph {
+  font-family: var(--font-family); 
+  font-size: 1rem; 
+  text-align: center; 
+}
+
+@media only screen and (min-width: 1920px) {
+
+.full {
+  width: 16%; 
+  height: 16%; 
+  position: absolute;
   transform: translate(12rem, 0rem);  
 }
 
@@ -154,16 +198,12 @@
   transform: translate(12rem, 25rem); 
 }
 
-.linesContainer {
-  width: 80%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  transform: translateY(-3.5rem);
+.variationsContainer {
+  width: 80%; 
 }
 
-.faviconParagraph {
-  font-family: var(--font-family); 
-  font-size: 1rem; 
-  text-align: center; 
+.gridItem {
+  margin-left: 11rem; 
+}
+
 }

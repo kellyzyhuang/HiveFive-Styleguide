@@ -190,3 +190,11 @@
     height: 20%;  
     transform: translate(-18rem, 10rem); 
 }
+
+@media only screen and (min-width: 1920px) {
+
+.fontbold {
+    transform: translate(-26rem, 10rem); 
+}
+
+}
